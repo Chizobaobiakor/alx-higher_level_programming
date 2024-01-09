@@ -1,21 +1,5 @@
 #!/usr/bin/python3
-
-def delete_at(my_list=[], idx=0):
-
-    list_len = len(my_list)
-    if idx >= list_len or idx < 0:
-        return my_list
-
-    del my_list[idx]
-
-    return my_list#!/usr/bin/python3
-
-def delete_at(my_list=[], idx=0):
-
-    list_len = len(my_list)
-    if idx >= list_len or idx < 0:
-        return my_list
-
-    del my_list[idx]
-
-    return my_list
+a = 89
+b = 10
+b, a = a, b
+print("a={:d} - b={:d}".format(a, b))
